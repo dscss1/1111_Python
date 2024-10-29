@@ -18,7 +18,7 @@ def main():
             continue
 
         bot = random.choice(allowed)
-        print(f"Бот выбрал: {bot}")
+        print(f"Бот выбрал: {bot.upper}")
 
         if bot == user_choice:
             print("Ничья!")
