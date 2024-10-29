@@ -23,7 +23,7 @@ def summ(var1, var2=0, var3=0, var4=0):
 #
 # b = summ(10, 20, 30, 40)
 # #c = summ(10, 20, 30)
-# #d = summ(10,  20)
+# #d = summ(10, 20)
 # print(b)
 # print(c)
 # print(d)
