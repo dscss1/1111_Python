@@ -1,5 +1,5 @@
 import json
-import os  # Импортируем модуль os для очистки экрана
+import os
 
 players = []
 file_path = './4/allowed.json'
@@ -88,7 +88,7 @@ class Game:
                 print("Некорректный выбор. Попробуйте снова.")
 
         input("Нажмите любую клавишу для продолжения...")
-        os.system('cls' if os.name == 'nt' else 'clear')  # Очистка экрана
+        os.system('cls' if os.name == 'nt' else 'clear')
 
 
     def reload_config(self):
