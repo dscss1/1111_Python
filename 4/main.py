@@ -1,4 +1,5 @@
 import json
+import os  # Импортируем модуль os для очистки экрана
 
 players = []
 file_path = './4/allowed.json'
@@ -82,11 +83,18 @@ class Game:
             elif choice == "перезагрузить":
                 self.reload_config()
                 print("Конфигурация перезагружена!")
+                break
             else:
                 print("Некорректный выбор. Попробуйте снова.")
+
+        input("Нажмите любую клавишу для продолжения...")
+        os.system('cls' if os.name == 'nt' else 'clear')  # Очистка экрана
+
 
     def reload_config(self):
         global questions, actions
         questions, actions = load_questions_and_actions(file_path)
         self.questions = questions
         self.actions = actions
+
+
