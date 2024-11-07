@@ -38,7 +38,7 @@ import random
 
 players = ['Serg', 'Anna', "Anton"]
 list_question = ["Як тебе називають у школі?", "Хто твій найкращій друг?", "Як пройшов твій день?"]
-list_action = ["Помий посуд", "Сходи за хлібом", "Зроби ДЗ"]
+list_action = []
 
 def get_players(players):
     while True:
@@ -70,10 +70,10 @@ def game(list_action, list_question, players):
 
 
 #get_players(players)
-while True:
-    if game(list_action, list_question, players) == False:
-        print("Вибачте, в нас закінчились питання.")
-        break
+# while True:
+#     if game(list_action, list_question, players) == False:
+#         print("Вибачте, в нас закінчились питання.")
+#         break
 
 
 # dic = {}
