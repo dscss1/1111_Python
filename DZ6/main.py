@@ -2,7 +2,7 @@ import json
 import os
 
 players = []
-file_path = './4/allowed.json'
+file_path = './DZ6/allowed.json'
 
 
 def load_questions_and_actions(file_path):

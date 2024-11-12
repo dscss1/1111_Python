@@ -38,7 +38,7 @@ def isEven(number):
         return False
 
 
-# a = [1,2,4,7,8,7,5,3,4,6]
+# a = [1,2,5,7,8,7,5,3,5,6]
 # count = 0
 # for i in a:
 #     if isEven(i):
